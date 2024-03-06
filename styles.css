@@ -2,51 +2,39 @@ body{
     background-color: black;
 }
 
-.post{
+.contenedor{
     background-color: white;
-    width: 600px;
-    height: 700px;
-    margin: auto;
+    width: 400px;
+    height: 600px;
+    border-radius: 5px;
 }
 
-.post-header{
+.section{
+    padding: 1rem;
+}
+
+.header{
     display: flex;
-    border: 1px solid red;
-    text-align: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    align-items: center;
 }
 
-.post-header span{
-    font-size: 2rem;
-    border: 1px solid red;
-}
-
-#nav{
-    font-size: 2rem;
-    margin-left: auto;
-    border: 1px solid red;
+.header-title{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
 img{
     width: 100%;
 }
 
-.post-body{
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-}
-
-.post-icons{
+.buttons{
     display: flex;
-    
-}
-.post-icons span{
-    font-size: 2rem;
-    margin-right: 5px;
-    margin-bottom: 2rem;
-}
-
-.post-icons span:last-child{
-    margin-right: 10px;
-    margin-left: auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+    gap: 0.5rem;
 }
