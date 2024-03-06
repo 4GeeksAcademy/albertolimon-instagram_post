@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+}
+
+.post{
+    background-color: white;
+    width: 600px;
+    height: 700px;
+    margin: auto;
+}
+
+.post-header{
+    display: flex;
+    border: 1px solid red;
+    text-align: center;
+}
+
+.post-header span{
+    font-size: 2rem;
+    border: 1px solid red;
+}
+
+#nav{
+    font-size: 2rem;
+    margin-left: auto;
+    border: 1px solid red;
+}
+
+img{
+    width: 100%;
+}
+
+.post-body{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.post-icons{
+    display: flex;
+    
+}
+.post-icons span{
+    font-size: 2rem;
+    margin-right: 5px;
+    margin-bottom: 2rem;
+}
+
+.post-icons span:last-child{
+    margin-right: 10px;
+    margin-left: auto;
+}
